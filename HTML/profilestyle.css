@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@361&display=swap");
+
+.nav {
+  background-color: black;
+  padding:13px;
+  margin: 2px;
+}
+
+.body {
+  background-color: rgb(32, 32, 32);
+}
+
+/*  Start of Nav Bar */
+
+.navbar a {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 361;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  
+}
+
+.navbar ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.navbar .nav-title {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 361;
+  font-style: normal;
+  font-size: 35px;
+  float: inline-end;
+}
+
+.active {
+  background-color: green;
+}
+
+li a:hover:not(.active) {
+  background-color: #5f5c5c;
+}
+
+
+.active2 {
+  background-color: rgb(52, 53, 52);
+}
+
+.active3 {
+  background-color: rgb(52, 53, 52);
+}
+
+/* End of Nav bar */
+
+/* Start of Body */
+
+.parent-title {
+  display: flex;
+}
+
+
+.img-text  {
+
+background-image: url("kent.jpg");
+height: 580px;
+width: 400px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 50px;
+margin-left: 450px;
+border-radius: 10px;
+display: inline-block;
+
+}
+
+.img-text h1 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 361;
+  font-style: normal;
+  font-size: 35px;
+  background-color: #5f5c5c;
+  width: 550px;
+  height: 55px;
+  margin-left: 410px;
+  text-align: center;
+}
+/* end of body */
+
+/* Start of Footer */
+
+footer {
+  background-color: rgb(22, 22, 22);
+  margin-top: 120px;
+  height: 138px;
+}
+
+.footer-div {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 361;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+
+}

@@ -1,0 +1,51 @@
+span {
+    color: red;
+}
+
+.p1 {
+    color: orange;
+}
+
+.p2 {
+    color: yellow;
+}
+
+#id1 {
+    color: green;
+}
+
+*{
+    color: indigo;
+    font-size: 25px;
+}
+
+a[href] {
+    color: blue;
+}
+
+a[href="www.sample.com"] {
+    color: green;
+}
+
+h1, .parag, h2 {
+    color: fuchsia;
+}
+
+.ancestor h3 {
+    color: dodgerblue;
+    font-size: 35px;
+}
+
+.ancestor p {
+    font-size: 40px;
+    color: yellowgreen;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+#pseudo-element::before {
+    content: "This is Pseudo Class before ->";
+}
