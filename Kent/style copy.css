@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Outfit:wght@100..900&display=swap');
+
+* {
+background-color: rgb(79, 81, 204);
+
+}
+
+
+
+
+
+nav .title{
+
+    background-color: green;
+    padding: 24px;
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.ptag {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal
+}
